@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let timerId = null;           //Айди таймера
   let channelCount;             //К-л каналов
 
-  const url = "http://147.78.66.34/tv/api.php?list=1"; //Линк для апи запроса списка каналов в формате JSON("ChanelName": "ChanelLink")
+  const url = "http://Линк на веб/tv/api.php?list=1"; //Линк для апи запроса списка каналов в формате JSON("ChanelName": "ChanelLink")
 
   fetch(url)
     .then((responce) => responce.json())
